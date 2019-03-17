@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Profile</title>
+</head>
+
+<body>
+    <header>
+        <h1>SteamyWolf!</h1>
+        <h2 class="homeh2">Furry Art!</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="images.html">Gallery</a></li>
+            <li class="active"><a href="profile.html">Create a Profile</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Create your Personal Profile!</h1>
+
+        <form action="FormToEmail.php" method="POST" enctype="multipart/form-data" name="profileForm" class="createProfile">
+            <fieldset>
+                <legend>Personal Info:</legend>
+                <label>
+                    <span>First Name: </span><input type="text" name="first-name" placeholder="Ex. Leroy" required class="userInfo">
+                </label>
+                <label>
+                    <span>Last Name: </span><input type="text" name="last-name" placeholder="Ex. Jenkins" required class="userInfo">
+                </label>
+                <label>
+                    <span>Email: </span><input type="email" name="email" placeholder="Ex. leroyjenkins@myemail.com" required class="userInfo">
+                </label>
+                <label>
+                    <span>Phone: </span><input type="tel" name="phone" placeholder="344-555-4579" required pattern="[0-9-. ]{10,14}" class="userInfo">
+                </label>
+                <label>
+                    <span>Date of Birth: </span><input type="date" name="age" required class="userInfo">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                    <legend>Species Info:</legend>
+                    <label>
+                        <span>Which species are you? </span>
+                        <input type="radio" name="species-type" value="Wolf"> Wolf<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="species-type" value="Fox"> Fox<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="species-type" value="Dog"> Dog<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="species-type" value="Reptile"> Reptile<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="species-type" value="Dragon"> Dragon<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="species-type" value="Other"> Other<br>
+                    </label>
+                    <label>
+                        <span>If other then please indicate: </span>
+                        <input type="text" name="species-type" class="userInfo">
+                    </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Are you a(n):</legend>
+                <label>
+                    <input type="checkbox" name="artist" value="artist"> Artist<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="viewer" value="viewer"> Viewer<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="contributor" value="contributor"> Contributor<br>
+                </label>
+                <label>
+                    <span>Do you own any furry memorobilia?</span>
+                    <select name="owner" class="userInfo">
+                        <option value="Y">Yes</option>
+                        <option value="N">No</option>
+                        <option value="IDK">I don't know</option>
+                        <option value="No ANSWR">Prefer not to answer</option>
+                    </select>
+                </label>
+            </fieldset>
+            <input type="submit" name="submit" value="Create!" class="submitbutton">
+
+            <input type="hidden" name="subject" value="Profile Creation">
+            <input type="hidden" name="redirect" value="thanks.html">
+        </form>
+
+    </main>
+
+    <footer>
+            &copy; SteamyWolf &bull; Wyatt Allan &bull; 01/31/2019
+    </footer>
+</body>
+
+
+</html>
