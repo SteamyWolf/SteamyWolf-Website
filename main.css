@@ -117,7 +117,7 @@ nav ul a:active {
 
 /* -------------BODY------------ */
 body {
-    background: #112F3B;
+    background: #2B7379;
     background-image: url(images/body_grad.gif);
     background-repeat: repeat-x;
     background-size: 2.43rem;
@@ -127,7 +127,7 @@ body {
 div#wrapper {
     margin: 0 auto;
     max-width: 960px;
-    box-shadow: 0 0 10px #112F3B;
+    box-shadow: 0 0 20px #2B7379;
 }
 
 /* ---------------MAIN------------- */
@@ -231,6 +231,7 @@ figure.galleryImages img {
     padding: 0 0 0 0;
     /* border: solid 3px rgb(255, 251, 12); */
     margin: 0 0 0 0;
+    border-radius: 10px;
     
 }
 
@@ -242,6 +243,7 @@ figure.galleryImages figure {
     padding: 0 0 30px 0;
     margin: 0 0 70px 0;
     border: solid 7px #6BBAB5;
+    border-radius: 20px;
 }
 
 figure.galleryImages figcaption {
@@ -253,6 +255,10 @@ figure.galleryImages figcaption {
     font-size: 20px;
     /* border: solid 7px #6BBAB5; */
     /* margin: 0 0px 0; */
+}
+
+#giffy {
+    border: solid 7px #6BBAB5;
 }
 
 
