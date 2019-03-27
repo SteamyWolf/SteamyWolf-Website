@@ -30,7 +30,47 @@ header h2 {
     color: #FAE3D6;
 }
 /* --------------NAVIGATION----------- */
-nav {
+/* --------------phone nav here----------- */
+
+@media only screen and (max-width: 600px) {
+    nav {
+        background: linear-gradient(to bottom, #112F3B 0%, #6BBAB5 100%);
+        border: solid #D5ADA6 3px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    nav ul {
+        padding: 0px;
+    }
+    nav ul li {
+        list-style-type: none;
+        padding: 0px 35px;
+    }
+    nav ul li a {
+        padding: .2rem 1rem;
+        margin-bottom: .5rem;
+        background-color: #2B7379;
+        font-weight: 600;
+        text-decoration: none;
+        display: block;
+        border: solid 1px #FAE3D6;
+        border-radius: .5rem;
+    }
+    nav ul li.active a {
+        background-color: #D5ADA6;
+        color: #2B7379
+    }
+    nav ul li a:hover {
+        background-color: #D5ADA6;
+        color: #112F3B;
+    }
+}
+/* --------------phone ends here----------- */
+/* --------------desktop nav here----------- */
+
+
+@media only screen and (min-width: 601px) {
+    nav {
     border: solid 3px #6BBAB5;
     background: linear-gradient(to bottom, #112F3B 0%, #6BBAB5 100%);
     padding: 0px;
@@ -73,6 +113,8 @@ nav ul a:hover {
 nav ul a:active {
     color: red;
 }
+}
+
 /* -------------BODY------------ */
 body {
     background: #112F3B;
