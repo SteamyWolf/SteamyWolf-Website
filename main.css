@@ -11,7 +11,7 @@ body, p, h1, h2, h3, h4, h5 {
 /* ----------Header------------ */
 header {
     padding: 2vw;
-    background-image: url(/images/kisspng-gray-wolf-furry-fandom-werewolf-furry-wolf-black-5b4b86e2f373c6.7897310515316763869972.png);
+    background-image: url(images/wolfIcon.png);
     background-repeat: no-repeat;
     background-size: 155px;
     background-position: 210px;
@@ -164,7 +164,7 @@ main p {
 
 
 main ul li {
-    background-image: url(/images/kisspng-computer-icons-gray-wolf-icon-design-clip-art-wolves-5afe09a7956a08.789810481526598055612.png);
+    background-image: url(images/kisspng-computer-icons-gray-wolf-icon-design-clip-art-wolves-5afe09a7956a08.789810481526598055612.png);
     background-repeat: no-repeat;
     background-size: 20px;
     
@@ -319,3 +319,4 @@ footer {
     flex-direction: row;
     justify-content: center;
 }
+
