@@ -193,6 +193,16 @@ main a:hover {
     color: red;
 }
 
+/* ---------------MAP------------- */
+
+iframe.mymap {
+    border: 1px solid #666;
+    width: 96%;
+    margin-left: 2%;
+    height: 500px;
+}
+
+
 /* ---------------IMAGES------------- */
 
 figure.frontFurry {
