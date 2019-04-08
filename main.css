@@ -203,6 +203,51 @@ iframe.mymap {
 }
 
 
+/* ---------------TABLE------------- */
+
+table.category {
+    border-collapse: collapse;
+    margin: 0 1% 1rem 1%;
+    border: 1px solid #6BBAB5;
+    width: 100%;
+    background-color: #2B7379;
+}
+
+table.category th {
+    text-align: left;
+    background-color: #D5ADA6;
+    color: #2B7379;
+    font-weight: 900;
+    /* border: 3px solid #112F3B; */
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+table.category td {
+    color: #D5ADA6;
+    padding: .5rem;
+}
+
+table.category tr:nth-child(even) {
+    background-color: #112F3B;
+    color: #2B7379;
+}
+
+table.category tr:hover {
+    background-color: #ffffff;
+    color: #112F3B;
+}
+
+/* ---------------VIDEO------------- */
+iframe.myvideo {
+    width: 98%;
+    margin-left: 1%;
+    height: 440px;
+    margin-bottom: 1rem;
+
+}
+
+
 /* ---------------IMAGES------------- */
 
 figure.frontFurry {
