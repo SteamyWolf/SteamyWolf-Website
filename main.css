@@ -162,6 +162,10 @@ main p {
     padding: 10px;
 }
 
+main p a {
+    color: #6BBAB5;
+}
+
 
 main ul li {
     background-image: url(images/kisspng-computer-icons-gray-wolf-icon-design-clip-art-wolves-5afe09a7956a08.789810481526598055612.png);
@@ -200,6 +204,16 @@ iframe.mymap {
     width: 96%;
     margin-left: 2%;
     height: 500px;
+    margin-top: 1rem;
+}
+
+main h3 {
+    color: #6BBAB5;
+}
+
+main address {
+    color: #FAE3D6;
+    margin-top: 5px;
 }
 
 
@@ -245,6 +259,10 @@ iframe.myvideo {
     height: 440px;
     margin-bottom: 1rem;
 
+}
+
+main audio {
+    margin-top: 7px;
 }
 
 
